@@ -12,11 +12,6 @@ h1 {
     margin: 70px 180px;
     border: 2px solid rgb(119, 119, 119);
   }
-  h1 {
-    margin: 20px 50px 10px 40px;
-    text-align: left;
-    color: rgb(83, 83, 83);
-  }
   h2{
       margin: 40px 0px 0px 100px;
       text-align: left;
@@ -26,6 +21,10 @@ h1 {
   h3{  
     font-size: 28px;   
     text-align: center;
+  }
+h6{
+    text-align:center;
+    color:rgb(50, 0, 63);
   }
   
   ul {
