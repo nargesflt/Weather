@@ -48,7 +48,7 @@ navigator.geolocation.getCurrentPosition(handlePosition);
 
 
 function showTemperature(response) {
-let city = document.querySelector(".city");
+let city = document.querySelector("#city");
 city.innerHTML = response.data.name;
 let currentTemp = document.querySelector("#max-temp-today");
 let temperature = Math.round(response.data.main.temp);
