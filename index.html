@@ -13,41 +13,42 @@
     <div class="container">
         <div class="weather-app-1">
         <div class="weather-app">
-            <form id="search-form" class="mb-3">
+            <span class="current-time text" id="date">Last Updated:</span>
+        <br><br>
+            <form id="search-form" class="search-box">
                 <div class="row">
-                 <div class="col-9">
+                    <div class="col-9">
                 <input type="search"
                  placeholder="Type a city..." 
                  class="form-control"
                  id="city-input" 
-                 autocomplete="off" />
+                 autocomplete="off"  />
                  </div>
                 <div class="col-3">
                 <input type="submit"
                  value="Search"
                  class="btn btn-primary w-100" />
                 </div>
-                </div>
+                </div> 
             </form>
             <div class="viwe-1">
     <h1 id="city"></h1>
-    <ul>
-        <li>Last Updated: <span id="date"></span></li>
-        <li id="description"></li>
-    </ul>
+
+        <h5 id="description"></h5>
+
         </div>
     <div class="row">
         <div class="col-6">
             <div class="clearfix weather-temperature">     
-            <img src="" alt="Clear" id="icon" class="float-left"/>
-            <div class="float-left">
+            <img src="" alt="Clear" id="icon" class="temperature-1"/>
+            <div class="temperature-2">
                 <strong id="temperature"></strong>
             <span class="units">
                 <a href="#" id="celsius-link" class="active">°C</a> |
                 <a link="#" id="fahrenheit">F°</a></span>
-     </div> 
-     </div>
-     </div>
+             </div> 
+          </div>
+         </div>
         <div class="col-6">
             <ul>
                 <li> Humidity: <span id="humidity"></span>%</li>
