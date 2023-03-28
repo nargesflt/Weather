@@ -7,60 +7,60 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css"/>
-    <title>Weather App</title>
+    <title>🌞 Weather App</title>
 </head>
 <body>
     <div class="container">
         <div class="weather-app-1">
         <div class="weather-app">
-            <span class="current-time text" id="date">Last Updated:</span>
-        <br><br>
             <form id="search-form" class="search-box">
                 <div class="row">
                     <div class="col-9">
                 <input type="search"
-                 placeholder="Type a city..." 
-                 class="form-control"
+                 placeholder="Enter a city" 
+                 class="form-control search"
                  id="city-input" 
                  autocomplete="off"  />
                  </div>
                 <div class="col-3">
                 <input type="submit"
                  value="Search"
-                 class="btn btn-primary w-100" />
+                 class="btn button w-100" />
                 </div>
                 </div> 
             </form>
-            <div class="viwe-1">
+            <hr>
+            <div>
     <h1 id="city"></h1>
-
+    <span class="current-time time" id="date">Last Updated:</span>
         <h5 id="description"></h5>
-
         </div>
     <div class="row">
         <div class="col-6">
             <div class="clearfix weather-temperature">     
             <img src="" alt="Clear" id="icon" class="temperature-1"/>
             <div class="temperature-2">
-                <strong id="temperature"></strong>
-            <span class="units">
-                <a href="#" id="celsius-link" class="active">°C</a> |
-                <a link="#" id="fahrenheit">F°</a></span>
-             </div> 
-          </div>
+                <span class="units active"></span>
+                <strong class="temperature-3" id="temperature"></strong>
+           </div> 
          </div>
+     </div>
         <div class="col-6">
             <ul>
-                <li> Humidity: <span id="humidity"></span>%</li>
-                <li> Wind: <span id="wind"></span> km/h</li>
+                <li> Humidity: <strong id="humidity"></strong><strong>%</strong></li>
+                <li> Wind: <strong id="wind"></strong><strong>km/h</strong></li>
             </ul>
+        </div>
+       </div>
+       <hr>
+      <div class="weather-forecast" id="forecast"></div>
+
+     <hr class="line">
+      <p>  
+        <a href="https://github.com/nargesflt/Weather" target="_blank">Open-source code</a>
+       by Narges Falahat
+        </p> 
     </div>
-    </div>
-    </div>
-    <small>
-        <b><a href="https://github.com/nargesflt/Weather" target="_blank">Open-source code</a>
-       by Narges Falahat</b> 
-    </small> 
     </div>
     </div>
     <script src="app.js"></script>
