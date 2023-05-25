@@ -131,3 +131,13 @@ a{
     margin: 83px 0 7px 0;
     opacity: 20%;
 }
+
+  @media (max-width: 768px) {
+    .button{
+    font-size: 13px;
+   
+ 
+}
+
+
+}
