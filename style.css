@@ -134,9 +134,9 @@ a{
 
   @media (max-width: 768px) {
     .button{
-    font-size: 13px;
+    font-size: 15px;
    
- 
+ padding: 5px 10px;
 }
 
 
